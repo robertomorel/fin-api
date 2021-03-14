@@ -2,6 +2,8 @@
 
 It´s a local API (no db) to highlight examples of **HTTP**, **Middleware** e **Express**.
 
+![image](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+
 ## How to run
 ```bash
     # Install dependencies
