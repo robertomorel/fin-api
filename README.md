@@ -1,39 +1,25 @@
-## FinApi - Financeira
+## Fin Api
 
-Api desenvolvida durante as aulas do primeiro capitulo do curso Ignite NodeJS.
+It´s a local API (no db) to highlight examples of **HTTP**, **Middleware** e **Express**.
 
-Durante o desenvolvimento colocamos em pratica conceitos básicos de **HTTP**, **Middleware** e **Express**.
-
----
-
-### Como rodar o Projeto
+## How to run
 ```bash
-    # Clonar o repositório
-    $ git clone https://github.com/jorge-lba/FinApi
-
-    # Entrar no diretório
-    $ cd FinApi
-
-    # Instalar as dependências
+    # Install dependencies
     $ yarn install
 
-    # Iniciar o projeto
+    # Start API
     $ yarn start
-```
-
-### Testes
-Originalmente o desenvolvimento feito nesse módulo não possuia testes, então implementei os testes com cobertura de 100% das respostas desenvolvidas.
-
-```bash
-    # Rodar Testes
-    $ yarn test
-
-    # Rodar Testes com Tabela de cobertura
+    
+    # Run tests
+    $ yarn tests
+    
+    # Run tests with coverage
     $ yarn jest --collect-coverage
 ```
 
-### Requisitos
+## DDD
 
+### Requisitos
 - [x] Deve ser possível criar uma conta
 - [x] Deve ser possível buscar o extrato bancário do cliente
 - [x] Deve ser possível realizar um depósito
@@ -44,10 +30,7 @@ Originalmente o desenvolvimento feito nesse módulo não possuia testes, então 
 - [x] Deve ser possível deletar uma conta
 - [x] Deve ser possível retornar o balanço
 
----
-
 ### Regras de negócio
-
 - [x] Não deve ser possível cadastrar uma conta com CPF já exístente
 - [x] Não deve ser possível buscar extrato em uma conta não exístente
 - [x] Não deve ser possível fazer depósito em uma conta não exístente
