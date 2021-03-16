@@ -25,7 +25,7 @@ It´s a local API (no db) to highlight examples of **HTTP**, **Middleware** and 
 - [x] Should be able to create an account
 - [x] Should be able to seek for the customer bank statement
 - [x] Should be able to make a deposit
-- [x] Should be able to make a withdrawal
+- [x] Should be able to make a withdraw
 - [x] Should be able to retrieve the customer's bank statement by date
 - [x] Should be able to update the customer's account data
 - [x] Should be able to obtain customer account data
