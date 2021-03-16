@@ -1,6 +1,6 @@
 ## Fin Api
 
-It´s a local API (no db) to highlight examples of **HTTP**, **Middleware** e **Express**.
+It´s a local API (no db) to highlight examples of **HTTP**, **Middleware** and **Express**.
 
 ![image](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
@@ -22,20 +22,20 @@ It´s a local API (no db) to highlight examples of **HTTP**, **Middleware** e **
 ## DDD
 
 ### Requisitos
-- [x] Deve ser possível criar uma conta
-- [x] Deve ser possível buscar o extrato bancário do cliente
-- [x] Deve ser possível realizar um depósito
-- [x] Deve ser possível realizar um saque
-- [x] Deve ser possível buscar o extrato bancário do cliente por data
-- [x] Deve ser possível atualizar dados da conta do cliente
-- [x] Deve ser possível obter dados da conta do cliente
-- [x] Deve ser possível deletar uma conta
-- [x] Deve ser possível retornar o balanço
+- [x] Should be able to create an account
+- [x] Should be able to seek for the customer bank statement
+- [x] Should be able to make a deposit
+- [x] Should be able to to make a withdrawal
+- [x] Should be able to retrieve the customer's bank statement by date
+- [x] Should be able to update the customer's account data
+- [x] Should be able to obtain customer account data
+- [x] Should be able to delete an account
+- [x] Should be able to return the balance
 
 ### Regras de negócio
-- [x] Não deve ser possível cadastrar uma conta com CPF já exístente
-- [x] Não deve ser possível buscar extrato em uma conta não exístente
-- [x] Não deve ser possível fazer depósito em uma conta não exístente
-- [x] Não deve ser possível fazer saque em uma conta não exístente
-- [x] Não deve ser possível fazer saque quando o saldo for insuficiente
-- [x] Não deve ser possível excluir uma conta não exístente
+- [x] Shouldn´t be able to register an account with an existing CPF
+- [x] Shouldn´t be able to fetch a statement from a non-existent account
+- [x] Shouldn´t be able to make a deposit into a non-existing account
+- [x] Shouldn´t be able to withdraw to a non-existent account
+- [x] Shouldn´t be able to withdraw when the balance is insufficient
+- [x] Shouldn´t be able to delete a non-existent account
