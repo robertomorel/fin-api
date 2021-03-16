@@ -21,7 +21,7 @@ It´s a local API (no db) to highlight examples of **HTTP**, **Middleware** and 
 
 ## DDD
 
-### Requisitos
+### Features
 - [x] Should be able to create an account
 - [x] Should be able to seek for the customer bank statement
 - [x] Should be able to make a deposit
@@ -32,7 +32,7 @@ It´s a local API (no db) to highlight examples of **HTTP**, **Middleware** and 
 - [x] Should be able to delete an account
 - [x] Should be able to return the balance
 
-### Regras de negócio
+### Business Rules
 - [x] Shouldn´t be able to register an account with an existing CPF
 - [x] Shouldn´t be able to fetch a statement from a non-existent account
 - [x] Shouldn´t be able to make a deposit into a non-existing account
